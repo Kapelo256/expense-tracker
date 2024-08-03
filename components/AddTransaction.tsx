@@ -32,7 +32,7 @@ const AddTransaction = () => {
         </div>
         <div className='form-control'>
           <label htmlFor='amount'>
-            Amount <br /> (negative - expense, positive - income)
+            Le Montant <br /> (dépenses - négatives, entrées + positives)
           </label>
           <input
             type='number'
@@ -42,7 +42,7 @@ const AddTransaction = () => {
             step='0.01'
           />
         </div>
-        <button className='btn'>Add transaction</button>
+        <button className='btn'>Ajouter une transaction</button>
       </form>
     </>
   );
