@@ -27,7 +27,7 @@ const AddTransaction = () => {
             type='text'
             id='text'
             name='text'
-            placeholder='Enter text...'
+            placeholder='Saisir la transaction...'
           />
         </div>
         <div className='form-control'>
@@ -38,7 +38,7 @@ const AddTransaction = () => {
             type='number'
             name='amount'
             id='amount'
-            placeholder='Enter amount...'
+            placeholder='Saisir le montant...'
             step='0.01'
           />
         </div>
