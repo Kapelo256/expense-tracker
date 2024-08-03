@@ -19,7 +19,7 @@ const AddTransaction = () => {
     
   return (
     <>
-      <h3>Add transaction</h3>
+      <h3>Ajouter une transaction</h3>
       <form ref={formRef} action={clientAction}>
         <div className='form-control'>
           <label htmlFor='text'>Text</label>
